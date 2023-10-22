@@ -1,5 +1,9 @@
 package com.example.workspace;
 
+
+import java.util.Arrays;
+import java.util.Random;
+
 public class MergeSort {
 
     // Merges two subarrays of arr[].
@@ -85,12 +89,16 @@ public class MergeSort {
     // Driver code
     public static void main(String args[])
     {
-        int arr[] = { 7,25,12,22,11 };
+        int z = 5;
+        int[] integerArray = new Random().ints(z, 0, 100).toArray();
+        System.out.println("Random Array: ");
+        System.out.println(Arrays.toString(integerArray));
+        int arr[] = integerArray;
 
         MergeSort ob = new MergeSort();
         ob.sort(arr, 0, arr.length - 1);
 
-        System.out.println("\nMerge Sorted array is");
-        printArray(arr);
+        System.out.println("\nMerge Sorted Array: ");
+       printArray(arr);
     }
 }

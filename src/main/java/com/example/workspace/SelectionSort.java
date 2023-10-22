@@ -2,7 +2,10 @@ package com.example.workspace;
 
 
 //  Selection Sort
-import java.io.*;
+
+import java.util.Arrays;
+import java.util.Random;
+
 public class SelectionSort
 {
     void sort(int arr[])
@@ -38,7 +41,11 @@ public class SelectionSort
     public static void main(String args[])
     {
         SelectionSort ob = new SelectionSort();
-        int arr[] = {7,25,12,22,11};
+        int z = 5;
+        int[] integerArray = new Random().ints(z, 0, 100).toArray();
+        System.out.println("Random Array: ");
+        System.out.println(Arrays.toString(integerArray));
+        int arr[] = integerArray;
         ob.sort(arr);
         System.out.println("Selection Sorted Array: ");
         ob.printArray(arr);

@@ -1,5 +1,8 @@
 package com.example.workspace;
 
+import java.util.Arrays;
+import java.util.Random;
+
 public class BubbleSort {
     // Bubble Sort
     static void bubbleSort(int arr[], int n)
@@ -38,12 +41,16 @@ public class BubbleSort {
     // Driver program
     public static void main(String args[])
     {
-        int arr[] = { 7,25,12,22,11 };
+        int z = 5;
+        int[] integerArray = new Random().ints(z, 0, 100).toArray();
+        System.out.println("Random Array: ");
+        System.out.println(Arrays.toString(integerArray));
+        int arr[] = integerArray;
 
         int n = arr.length;
         bubbleSort(arr, n);
 
-        System.out.println("Bubble Sorted array: ");
+        System.out.println("Bubble Sorted Array: ");
         printArray(arr, n);
     }
 }

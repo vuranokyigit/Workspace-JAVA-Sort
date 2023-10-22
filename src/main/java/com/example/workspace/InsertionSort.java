@@ -1,5 +1,8 @@
 package com.example.workspace;
 
+import java.util.Arrays;
+import java.util.Random;
+
 //  Insertion Sort
 public class InsertionSort {
     /*Function to sort array using insertion sort*/
@@ -36,7 +39,11 @@ public class InsertionSort {
     // Driver method
     public static void main(String args[])
     {
-        int arr[] = { 7,25,12,22,11 };
+        int z = 5;
+        int[] integerArray = new Random().ints(z, 0, 100).toArray();
+        System.out.println("Random Array: ");
+        System.out.println(Arrays.toString(integerArray));
+        int arr[] = integerArray;
 
         InsertionSort ob = new InsertionSort();
         ob.sort(arr);
