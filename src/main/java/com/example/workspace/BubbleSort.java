@@ -43,7 +43,7 @@ public class BubbleSort {
         int n = arr.length;
         bubbleSort(arr, n);
 
-        System.out.println("Sorted array: ");
+        System.out.println("Bubble Sorted array: ");
         printArray(arr, n);
     }
 }

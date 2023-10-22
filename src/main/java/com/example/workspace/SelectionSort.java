@@ -40,7 +40,7 @@ public class SelectionSort
         SelectionSort ob = new SelectionSort();
         int arr[] = {7,25,12,22,11};
         ob.sort(arr);
-        System.out.println("SelectionSort Array: ");
+        System.out.println("Selection Sorted Array: ");
         ob.printArray(arr);
     }
 }

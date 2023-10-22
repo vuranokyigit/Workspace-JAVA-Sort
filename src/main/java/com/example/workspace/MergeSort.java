@@ -87,13 +87,10 @@ public class MergeSort {
     {
         int arr[] = { 7,25,12,22,11 };
 
-        System.out.println("Given array is");
-        printArray(arr);
-
         MergeSort ob = new MergeSort();
         ob.sort(arr, 0, arr.length - 1);
 
-        System.out.println("\nMergeSorted array is");
+        System.out.println("\nMerge Sorted array is");
         printArray(arr);
     }
 }
