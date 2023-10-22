@@ -39,8 +39,10 @@ public class BubbleSort {
     public static void main(String args[])
     {
         int arr[] = { 7,25,12,22,11 };
+
         int n = arr.length;
         bubbleSort(arr, n);
+
         System.out.println("Sorted array: ");
         printArray(arr, n);
     }

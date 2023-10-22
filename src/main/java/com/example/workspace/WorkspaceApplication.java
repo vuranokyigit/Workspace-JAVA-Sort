@@ -9,7 +9,6 @@ public class WorkspaceApplication {
     public static void main(String[] args) {
         SpringApplication.run(WorkspaceApplication.class, args);
 
-
     }
 
 }
