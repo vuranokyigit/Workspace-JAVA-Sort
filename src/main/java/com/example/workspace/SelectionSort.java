@@ -1,14 +1,13 @@
 package com.example.workspace;
 
 
-// Java program for implementation of Selection Sort
+//  Selection Sort
 import java.io.*;
 public class SelectionSort
 {
     void sort(int arr[])
     {
         int n = arr.length;
-
         // One by one move boundary of unsorted subarray
         for (int i = 0; i < n-1; i++)
         {
