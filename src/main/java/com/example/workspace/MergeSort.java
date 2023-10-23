@@ -89,7 +89,7 @@ public class MergeSort {
     // Driver code
     public static void main(String args[])
     {
-        int z = 5;
+        int z = 50000;
         int[] integerArray = new Random().ints(z, 0, 100).toArray();
         System.out.println("Random Array: ");
         System.out.println(Arrays.toString(integerArray));
