@@ -41,7 +41,7 @@ public class BubbleSort {
     // Driver program
     public static void main(String args[])
     {
-        int z = 50000;
+        int z = 39062;
         int[] integerArray = new Random().ints(z, 0, 100).toArray();
         System.out.println("Random Array: ");
         System.out.println(Arrays.toString(integerArray));

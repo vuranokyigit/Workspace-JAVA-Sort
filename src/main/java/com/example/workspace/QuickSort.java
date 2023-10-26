@@ -12,7 +12,6 @@ public class QuickSort  {
         arr[i] = arr[j];
         arr[j] = temp;
     }
-
     // This function takes last element as pivot,
     // places the pivot element at its correct position
     // in sorted array, and places all smaller to left
@@ -69,7 +68,7 @@ public class QuickSort  {
     // Driver Code
     public static void main(String[] args)
     {
-        int z = 50000;
+        int z = 39062;
         int[] integerArray = new Random().ints(z, 0, 100).toArray();
         System.out.println("Random Array: ");
         System.out.println(Arrays.toString(integerArray));
